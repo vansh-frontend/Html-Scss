@@ -3,8 +3,6 @@ $bgcolor: lightblue;
 $textcolor: darkblue;
 $fontsize: 18px;
 $border: 1px solid #333;
-$header: flex;
-$position: center;
 $margin: 80px;
 
 /* Use the variables */
@@ -13,7 +11,10 @@ body {
   color: $textcolor;
   font-size: $fontsize;
   border: $border;
-  display: $header;
-  justify-content: $position;
   margin: $margin;
+}
+
+header {
+  display: flex; /* Apply flex display directly to header */
+  justify-content: center; /* Align header content to center */
 }

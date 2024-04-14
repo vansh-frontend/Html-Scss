@@ -1,0 +1,19 @@
+/* Define standard variables and values for website */
+$bgcolor: lightblue;
+$textcolor: darkblue;
+$fontsize: 18px;
+$border: 1px solid #333;
+$header: flex;
+$position: center;
+$margin: 80px;
+
+/* Use the variables */
+body {
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+  border: $border;
+  display: $header;
+  justify-content: $position;
+  margin: $margin;
+}
